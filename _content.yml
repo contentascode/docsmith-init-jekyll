@@ -1,8 +1,8 @@
 source: .
 implementation: docsmith
-integration:
+integrate:
   travis:
     branch: 'versions/*'
-    build: rake
+    build: npm
     validate:
       - links
